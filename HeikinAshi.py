@@ -27,7 +27,7 @@ def plot_heikin_ashi(ha_df, title='Heikin Ashi Chart'):
 
 # Replace 'AAPL' with the ticker you're interested in and adjust the period as needed
 ticker = 'AAPL'
-data = yf.download(ticker, start='2023-01-01', end='2023-04-01')
+data = yf.download(ticker, start='2023-01-01', end='2024-03-01')
 
 # Calculate Heikin Ashi
 ha_data = calculate_heikin_ashi(data)
